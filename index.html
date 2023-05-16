@@ -16,18 +16,24 @@
 
   <!-- ICONS -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- JS -->
+  <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
   <!-- HEADER DESIGN -->
   <header class="header">
-    <a href="#" class="logo"> Bruno.</a>
-    <div class="bx bx-menu" id="menu-icon"></div>
+    <a href="#" class="logo"> Bruno.<span class="animate" style="--i:1;"></span></a>
+    <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
+
+      <span class="active-nav"></span>
+      <span class="animate" style="--i:2;"></span>
     </nav>
   </header>
 
